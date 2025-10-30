@@ -1,0 +1,67 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Cafe Sunrise",
+      "image": "https://picsum.photos/id/1011/900/600",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    {
+      "id": "2",
+      "name": "Ocean Dine",
+      "image": "https://picsum.photos/id/1015/900/600",
+      "lat": 19.08,
+      "lng": 72.88
+    },
+    {
+      "id": "3",
+      "name": "Garden Bistro",
+      "image": "https://picsum.photos/id/1020/900/600",
+      "lat": 19.079,
+      "lng": 72.8785
+    },
+    {
+      "id": "4",
+      "name": "Mountain View Cafe",
+      "image": "https://picsum.photos/id/1035/900/600",
+      "lat": 19.082,
+      "lng": 72.8792
+    },
+    {
+      "id": "5",
+      "name": "Downtown Deli",
+      "image": "https://picsum.photos/id/1043/900/600",
+      "lat": 19.0755,
+      "lng": 72.876
+    },
+    {
+      "id": "6",
+      "name": "Urban Eatery",
+      "image": "https://picsum.photos/id/1060/900/600",
+      "lat": 19.081,
+      "lng": 72.883
+    },
+    {
+      "id": "7",
+      "name": "Lakeview Lounge",
+      "image": "https://picsum.photos/id/1074/900/600",
+      "lat": 19.0775,
+      "lng": 72.879
+    },
+    {
+      "id": "8",
+      "name": "The Spice Route",
+      "image": "https://picsum.photos/id/1080/900/600",
+      "lat": 19.074,
+      "lng": 72.878
+    },
+    {
+      "id": "9",
+      "name": "Skyline Grill",
+      "image": "https://picsum.photos/id/1084/900/600",
+      "lat": 19.078,
+      "lng": 72.881
+    }
+  ]
+}

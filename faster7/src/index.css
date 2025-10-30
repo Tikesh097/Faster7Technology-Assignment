@@ -1,0 +1,69 @@
+/* src/index.css */
+:root{
+  --primary: #ff6b6b;
+  --bg: #f7f7f8;
+  --card: #ffffff;
+  --muted: #666;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:#111;
+}
+
+.container {
+  max-width: 980px;
+  margin: 28px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(22,22,22,0.06);
+}
+
+h2 { margin: 0 0 12px 0; }
+button {
+  background: var(--primary);
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button.secondary {
+  background: #eee;
+  color: #222;
+}
+input[type="text"], input[type="tel"], input[type="number"] {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width:100%;
+  margin-bottom: 12px;
+}
+.grid {
+  display:grid;
+  gap:12px;
+}
+.restaurant-card img {
+  width:100%;
+  height:160px;
+  object-fit:cover;
+  border-radius:8px;
+}
+.row {
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+.small {
+  font-size: 13px;
+  color: var(--muted);
+}
+.center { text-align:center; }
