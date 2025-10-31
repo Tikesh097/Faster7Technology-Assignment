@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import MobileLogin from "./pages/MobileLogin";
-import OTPVerify from "./pages/OTPVerify";
-import RestaurantList from "./pages/RestaurantList";
-import RestaurantDetail from "./pages/RestaurantDetail";
+import MobileLogin from "./Pages/MobileLogin";
+import OTPVerify from "./Pages/OTPVerify";
+import RestaurantList from "./Pages/RestaurantList";
+import RestaurantDetail from "./Pages/RestaurantDetail";
 
 function Protected({ children }) {
   const logged = localStorage.getItem("fastor_logged");
