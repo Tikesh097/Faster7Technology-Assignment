@@ -1,67 +1,114 @@
 {
   "restaurants": [
     {
-      "id": "1",
-      "name": "Cafe Sunrise",
-      "image": "https://picsum.photos/id/1011/900/600",
-      "lat": 19.076,
-      "lng": 72.8777
+      "id": 1,
+      "name": "The Golden Spoon",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80",
+      "lat": 21.1458,
+      "lng": 79.0882,
+      "rating": 4.5,
+      "cuisine": "Multi-cuisine",
+      "deliveryTime": "25-30 min",
+      "distance": "1.2 km"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Ocean Dine",
       "image": "https://picsum.photos/id/1015/900/600",
       "lat": 19.08,
-      "lng": 72.88
+      "lng": 72.88,
+      "rating": 4.2,
+      "cuisine": "Seafood",
+      "deliveryTime": "30-35 min",
+      "distance": "2.5 km"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Garden Bistro",
       "image": "https://picsum.photos/id/1020/900/600",
       "lat": 19.079,
-      "lng": 72.8785
+      "lng": 72.8785,
+      "rating": 4.0,
+      "cuisine": "Continental",
+      "deliveryTime": "20-25 min",
+      "distance": "1.8 km"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Mountain View Cafe",
       "image": "https://picsum.photos/id/1035/900/600",
       "lat": 19.082,
-      "lng": 72.8792
+      "lng": 72.8792,
+      "rating": 4.6,
+      "cuisine": "Cafe",
+      "deliveryTime": "15-20 min",
+      "distance": "1.0 km"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Downtown Deli",
       "image": "https://picsum.photos/id/1043/900/600",
       "lat": 19.0755,
-      "lng": 72.876
+      "lng": 72.876,
+      "rating": 4.3,
+      "cuisine": "Fast Food",
+      "deliveryTime": "25-30 min",
+      "distance": "2.0 km"
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Urban Eatery",
       "image": "https://picsum.photos/id/1060/900/600",
       "lat": 19.081,
-      "lng": 72.883
+      "lng": 72.883,
+      "rating": 4.7,
+      "cuisine": "Modern Indian",
+      "deliveryTime": "20-25 min",
+      "distance": "1.3 km"
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Lakeview Lounge",
       "image": "https://picsum.photos/id/1074/900/600",
       "lat": 19.0775,
-      "lng": 72.879
+      "lng": 72.879,
+      "rating": 4.4,
+      "cuisine": "Italian",
+      "deliveryTime": "30-40 min",
+      "distance": "2.8 km"
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "The Spice Route",
       "image": "https://picsum.photos/id/1080/900/600",
       "lat": 19.074,
-      "lng": 72.878
+      "lng": 72.878,
+      "rating": 4.8,
+      "cuisine": "Indian",
+      "deliveryTime": "15-20 min",
+      "distance": "0.9 km"
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Skyline Grill",
       "image": "https://picsum.photos/id/1084/900/600",
       "lat": 19.078,
-      "lng": 72.881
+      "lng": 72.881,
+      "rating": 4.1,
+      "cuisine": "Grill & Barbecue",
+      "deliveryTime": "35-40 min",
+      "distance": "3.2 km"
+    },
+    {
+      "id": 10,
+      "name": "Sunset Diner",
+      "image": "https://picsum.photos/id/1032/900/600",
+      "lat": 19.0805,
+      "lng": 72.882,
+      "rating": 4.9,
+      "cuisine": "Fusion",
+      "deliveryTime": "25-30 min",
+      "distance": "1.5 km"
     }
   ]
 }

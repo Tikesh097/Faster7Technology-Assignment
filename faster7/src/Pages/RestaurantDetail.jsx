@@ -4,6 +4,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import api from "../utils/api";
 import { Stage, Layer, Image as KImage } from "react-konva";
 import useImage from "use-image";
+import Header from "../components/Header";
+
 
 /*
   Implementation notes:
@@ -126,6 +128,8 @@ export default function RestaurantDetail() {
   if (!rest) return <div className="container"><div className="card center">Restaurant not found</div></div>;
 
   return (
+    <>
+      <Header /> 
     <div className="container">
       <div className="card" style={{ padding: 12 }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -181,5 +185,6 @@ export default function RestaurantDetail() {
         </div>
       </div>
     </div>
+    </>
   );
 }
